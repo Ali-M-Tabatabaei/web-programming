@@ -8,10 +8,10 @@ ul {
   
   .top-nav li {
     float: right;
-  }
-  
-  li a {
-    display: inline-block;
+}
+
+li a {
+    display: flex;
     color: rgb(235, 123, 12);
     text-align: center;
     padding: 14px 25px;
@@ -44,11 +44,22 @@ header a {
     background-image: url("assets/Rectangle\ 31.png");
     background-repeat: no-repeat;
     background-size: cover;
+
 }
 
-.first-section  div {
+.first-section-top {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.first-section-top div,li {
     display: inline-block;
-    flex-direction: column;
     /* flex-wrap: wrap; */
 
+}
+
+.first-section-botton {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
