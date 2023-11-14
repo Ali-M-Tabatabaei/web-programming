@@ -1,7 +1,7 @@
 body {
     font-size: large;
 }
-ul {
+.top-nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -146,15 +146,16 @@ header a {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    padding: 10%;    
-
+    padding: 5%;    
+    width: auto;
 }
 
 #third-section-box {
     display: flex;
     flex-wrap: wrap;
     /* border: 1px solid black; */
-    padding: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
     border-radius: 20px;
     box-shadow: 3px 3px 15px gray;
     justify-content: space-evenly;
@@ -163,4 +164,17 @@ header a {
 
 #third-section-box li{
     display: flex;
+    margin: 5%;
+    width: max-content;
+}
+
+ul.third-section-left {
+    list-style-type: circle;
+    
+}
+
+.third-section-right {
+    background-image: url("assets/Deco-video.png");
+    background-repeat: no-repeat;
+    background-size: contain;
 }
