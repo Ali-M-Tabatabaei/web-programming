@@ -1,3 +1,6 @@
+body {
+    font-size: large;
+}
 ul {
     list-style-type: none;
     margin: 0;
@@ -52,6 +55,7 @@ header a {
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
+
 .first-section-top div,li {
     display: inline-block;
     /* flex-wrap: wrap; */
@@ -62,4 +66,101 @@ header a {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+}
+
+.second-section {
+    /* padding: 10%; */
+    background-image: url("assets/Backlights.png");
+    background-color: rgb(5, 5, 46);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    
+}
+
+.second-section-header {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+
+    
+}
+
+.second-section a {
+    text-align: center;
+    color: white;
+    padding: 14px 25px;
+    text-decoration: none;
+    border: solid;
+    border-radius: 10px;
+    display: block;
+}
+
+.second-section-header h2 {
+    font-size: xx-large;
+    float: left;
+}
+
+.second-section-card {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 3%;
+}
+
+.second-section-card div {
+    background-color: rgb(5, 5, 46);
+    border-radius: 10px;
+    /* padding: 1%; */
+    margin-bottom: 2%;
+}
+
+.second-section-card img {
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    
+    /* padding: 1%; */
+    /* margin-bottom: 2%; */
+}
+
+.second-section-card-description {
+    padding: 3%;
+}
+
+.second-section-card1, .second-section-card2, .second-section-card3 {
+    box-shadow: 3px 3px 15px white;
+
+}
+
+.second-section-card-buy-botton {
+    display: block;
+    width: 100%;
+    /* align-content: center; */
+    /* align-items: center; */
+}
+
+.third-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 10%;    
+
+}
+
+#third-section-box {
+    display: flex;
+    flex-wrap: wrap;
+    /* border: 1px solid black; */
+    padding: 5%;
+    border-radius: 20px;
+    box-shadow: 3px 3px 15px gray;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#third-section-box li{
+    display: flex;
 }
