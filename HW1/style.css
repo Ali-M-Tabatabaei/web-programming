@@ -177,4 +177,241 @@ ul.third-section-left {
     background-image: url("assets/Deco-video.png");
     background-repeat: no-repeat;
     background-size: contain;
+    /* margin-left: 5%; */
+}
+
+.fourth-section-header h2 {
+    font-size: xx-large;
+    float: left;
+}
+
+.fourth-section-header{
+    display: inline-block;
+    margin-left: 5%;
+}
+
+.fourth-section {
+    display: block;
+    width: 100%;
+}
+.fourth-section-card {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 3%;
+
+    padding: 1%;
+    background-color: #ecca35c0;
+    border-radius: 10px;
+}
+
+.fourth-section-card1, .fourth-section-card2, .fourth-section-card3 {
+    background-color: white;
+    padding: 1%;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+.fourth-section-card-user {
+    display: inline-flex;
+    align-items: center;
+
+}
+
+.fifth-section td {
+    display: flex;
+    margin: 8%;
+    width: 150px;
+    padding: 4%;
+}
+
+.fifth-section td:hover {
+    box-shadow: 3px 3px 15px gray;
+    border-radius: 10px;
+}
+
+.fifth-section-body-top {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.fifth-section-body-top-left {
+    margin-top: 3%;
+
+}
+
+.fifth-section-header {
+    margin: 3%;
+
+}
+
+.fifth-section-body {
+    background-image: url("assets/Waves.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.fifth-section-body-bottom {
+    background-image: url("assets/chart.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+#fifth-section-body-bottom-card {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    /* margin-top: 10%; */
+    margin-left: 10%;
+    /* margin-bottom: 10%; */
+
+
+}
+
+#fifth-section-body-bottom-card span{
+    background-color: rgb(202, 248, 233);
+    padding: 5%;
+    translate: 0px -50px;
+    width: 60%;
+}
+
+#fifth-section-body-bottom-bold {
+    display: inline-flex;
+    padding-left: 20%;
+    padding-right: 20%;
+    font-size: xx-large;
+    color: white;
+    justify-content: space-around;
+    text-align: center;
+}
+
+#footer {
+    background-image: url("assets/chart.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#footer-top-header h2 {
+    font-size: xx-large;
+    float: left;
+}
+
+#footer-top-header{
+    display: inline-block;
+    margin-left: 5%;
+}
+
+#footer-top {
+    display: block;
+    width: 100%;
+    margin-top: 3%;
+}
+#footer-top-card {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 2%;
+    padding: 1%;
+    border-radius: 10px;
+}
+
+#footer-top-card1, #footer-top-card2, #footer-top-card3, #footer-top-card4 {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 3px 3px 15px gray;
+
+}
+
+.footer-top-card-user {
+    display: inline-flex;
+    align-items: center;
+
+}
+
+.footer-top-card-description {
+    padding: 3%;
+}
+
+.footer-top-card-botton a{
+    color: #aa4604;
+    text-decoration: none;
+}
+
+.footer-top-card-botton a:hover{
+    color: black;
+    text-decoration: none;
+}
+
+#footer-bottom-header {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+}
+#footer-bottom-header a {
+    text-align: center;
+    color: white;
+    padding: 14px 25px;
+    text-decoration: none;
+    border: solid;
+    border-radius: 10px;
+    display: block;
+}
+
+#footer-bottom-header h2 {
+    font-size: xx-large;
+    float: left;
+    color: white;
+}
+
+#footer-bottom {
+    background-color: rgb(5, 5, 46);
+}
+
+#footer-bottom * {
+    color: white;
+    text-decoration: none;
+}
+
+#footer-bottom-body-table table:first-child{
+    width: 100%;
+    margin: 2%;
+    margin-left: 3%;
+}
+
+#footer-bottom-body-table td {
+    padding: 5px;
+}
+
+#footer-bottom {
+    background-image: url("assets/Backlights\ \(1\).png");
+    background-repeat: no-repeat;
+    background-size:auto;
+    background-position: right;
+}
+
+#social-media td a{
+    margin: 2%;
+}
+
+#footer-bottom-finish {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+
+
+}
+
+#terms li{
+    float: right;
+}
+
+hr {
+    width: 90%;
 }
