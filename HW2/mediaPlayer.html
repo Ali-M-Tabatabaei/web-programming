@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>media player</title>
+        <link rel="stylesheet" href="mediaPlayer.css">
+    </head>
+    <body>
+        <video id="myVideo" width="320" height="240" controls="false">
+            <source src="11.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+          <div id="myProgress">
+            <div id="myBar"></div>
+          </div>
+          <button id="playButton">Play</button>
+          <button id="pauseButton">Pause</button>
+          <button id="nextButton">Next</button>
+          <button id="prevButton">Previous</button>
+          <button id="muteButton">Mute</button>
+    </body>
+    <script src="mediaPlayer.js"></script>
+</html>
