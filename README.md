@@ -1,2 +1,2 @@
-# wep-programming-excercises
- projects related toweb programming course at FUM
+# wep-programming
+ projects related to web programming course at FUM
