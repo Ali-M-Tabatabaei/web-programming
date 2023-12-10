@@ -5,35 +5,57 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Form Submition</title>
         <link rel="stylesheet" href="form.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-        
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+    <!--Bootstrap JS and dependencies-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
     </head>
     <body>
-        <div id="progressbar">
-            <div id="progress"></div>
-        </div>
-        <form id="multistepform">
-            <div id="step1">
-                <input type="text" id="name" placeholder="Name" required>
-                <input type="text" id="surname" placeholder="Surname" required>
-                <input type="number" id="age" placeholder="Age" required>
-                <input type="text" id="education" placeholder="Education Level" required>
-                <button id="next1">Next</button>
-            </div>
-        
-            <div id="step2" style="display: none">
-                <input type="text" id="name1" placeholder="Name" required>
+        <div class="container">
+            <div class="row justify-content-md-center">
+                <div class="col-md-8">
+                        <!--Your form fields here-->
+                    <form id="multistepform">
+                        <div id="step1" class="form-group">
+                            <input type="text" id="name" class="form-control" placeholder="Name" required>
+                            <input type="text" id="surname" class="form-control" placeholder="Surname" required>
+                            <input type="number" id="age" class="form-control" placeholder="Age" required>
+                            <input type="text" id="education" class="form-control" placeholder="Education Level" required>
+                            <div class="form-button">
+                                <button class="btn btn-danger" disabled>Previous</button>
+                                <button type="submit" class="btn btn-primary" disabled>Submit</button>
+                                <button id="next1" class="btn btn-success">Next</button>
+                            </div>
+                        </div>
+                        
+                        <div id="step2" style="display: none" class="form-group">
+                            <input type="text" id="name1" placeholder="Name" required>
+                            <div class="form-button">
+                                <button id="prev1" class="btn btn-danger">Previous</button>
+                                <button type="submit" class="btn btn-primary" disabled>Submit</button>
+                                <button id="next2" class="btn btn-success">Next</button>
+                            </div>
+                        </div>
+                        
+                        <div id="step3" style="display: none" class="form-group">
+                            <input type="text" id="surname1" placeholder="Surname" required>
+                            <div class="form-button">
+                                <button id="prev2" class="btn btn-danger">Previous</button>
+                                <button id="submit" class="btn btn-primary">Submit</button>
+                                <button class="btn btn-success" disabled>Next</button>
 
-                <button id="prev1">Previous</button>
-                <button id="next2">Next</button>
+                            </div>
+                        </div>
+                        <div id="progressbar">
+                            <div id="progress"></div>
+                        </div>
+                    </form>
+                </div>
             </div>
-        
-            <div id="step3" style="display: none">
-                <input type="text" id="surname1" placeholder="Surname" required>
-                <button id="prev2">Previous</button>
-                <button id="submit">Submit</button>
-            </div>
-        </form>
+        </div>
         
     </body>
     <script src="form.js"></script>

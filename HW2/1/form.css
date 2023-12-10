@@ -14,7 +14,7 @@ body {
 }
 
 #multistepform {
-    max-width: 600px;
+    max-width: 60%;
     margin: 0 auto;
     padding: 20px;
     background-color: #FFF;
@@ -22,8 +22,10 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
 }
 
-#multistepform div {
-    margin-bottom: 20px;
+/* #multistepform div {
+    margin: 20px;
+    display: block;
+    flex-direction: column; 
 }
 
 #multistepform input[type="text"], #multistepform input[type="number"] {
@@ -51,7 +53,7 @@ body {
 
 #submit {
     background-color: #008CBA;
-}
+} */
 
 #progressbar {
     margin-bottom: 20px;
@@ -66,3 +68,14 @@ body {
     background-color: #4CAF50;
     transition: width .3s ease-in-out;
 }
+
+.form-button {
+    display: flex; 
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 20px;
+} 
+
+button {
+    width: 30%;
+} 
