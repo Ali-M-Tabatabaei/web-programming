@@ -24,4 +24,9 @@ $('#prev2').click(function(){
     $('#progress').css('width', '33%');
 });
 
-$('#submit').click(function
+$('#submit').click(function(){
+    // Validation code here
+    // If validation is successful, you can submit data
+    $('#progress').css('width', '100%');
+    alert('Form submitted successfully!');
+});

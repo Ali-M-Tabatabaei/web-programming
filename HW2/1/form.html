@@ -1,25 +1,41 @@
-<div id="progressbar">
-    <div id="progress"></div>
-</div>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Form Submition</title>
+        <link rel="stylesheet" href="form.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        
+    </head>
+    <body>
+        <div id="progressbar">
+            <div id="progress"></div>
+        </div>
+        <form id="multistepform">
+            <div id="step1">
+                <input type="text" id="name" placeholder="Name" required>
+                <input type="text" id="surname" placeholder="Surname" required>
+                <input type="number" id="age" placeholder="Age" required>
+                <input type="text" id="education" placeholder="Education Level" required>
+                <button id="next1">Next</button>
+            </div>
+        
+            <div id="step2" style="display: none">
+                <input type="text" id="name1" placeholder="Name" required>
 
-<form id="multistepform">
-    <div id="step1">
-        <input type="text" id="name" placeholder="Name" required>
-        <input type="text" id="surname" placeholder="Surname" required>
-        <input type="number" id="age" placeholder="Age" required>
-        <input type="text" id="education" placeholder="Education Level" required>
-        <button id="next1">Next</button>
-    </div>
+                <button id="prev1">Previous</button>
+                <button id="next2">Next</button>
+            </div>
+        
+            <div id="step3" style="display: none">
+                <input type="text" id="surname1" placeholder="Surname" required>
+                <button id="prev2">Previous</button>
+                <button id="submit">Submit</button>
+            </div>
+        </form>
+        
+    </body>
+    <script src="form.js"></script>
+</html>
 
-    <div id="step2" style="display: none">
-        // Similar inputs for step 2
-        <button id="prev1">Previous</button>
-        <button id="next2">Next</button>
-    </div>
-
-    <div id="step3" style="display: none">
-        // Similar inputs for step 3
-        <button id="prev2">Previous</button>
-        <button id="submit">Submit</button>
-    </div>
-</form>
