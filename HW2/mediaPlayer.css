@@ -9,23 +9,23 @@
 
 #myBar {
     width: 0;
-    height: 30px;
+    height: 20px;
     background-color: #4caf50;
 }
 
 button {
     padding: 10px 20px;
     margin: 5px;
-    background-color: #008CBA;
-    color: white;
-    border: none;
+    /* background-color: #008CBA;
+    color: white; */
+    /* border: none; */
     cursor: pointer;
-    border-radius: 3px;
+    /* border-radius: 3px; */
 }
 
-button:hover {
+/* button:hover {
     background-color: #007B9A;
-}
+} */
 
 #video_player {
     display: flex;
