@@ -5,20 +5,37 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>media player</title>
         <link rel="stylesheet" href="mediaPlayer.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     </head>
     <body>
-        <video id="myVideo" width="320" height="240" controls="false">
+      <div id="video_player">
+        <video id="myVideo">
             <source src="11.mp4" type="video/mp4">
             Your browser does not support the video tag.
           </video>
           <div id="myProgress">
             <div id="myBar"></div>
           </div>
-          <button id="playButton">Play</button>
-          <button id="pauseButton">Pause</button>
-          <button id="nextButton">Next</button>
-          <button id="prevButton">Previous</button>
-          <button id="muteButton">Mute</button>
+          <div id="buttons_container">
+            <button id="playButton" type="button" class="btn btn-default btn-sm">
+              <span class="glyphicon glyphicon-play"></span> 
+            </button>
+            <button id="pauseButton" type="button" class="btn btn-default btn-sm">
+              <span class="glyphicon glyphicon-pause"></span> 
+            </button>
+            <button id="nextButton" type="button" class="btn btn-default btn-sm">
+              <span class="glyphicon glyphicon-step-forward"></span> 
+            </button>
+            <button id="prevButton" type="button" class="btn btn-default btn-sm">
+              <span class="glyphicon glyphicon-step-backward"></span> 
+            </button>
+            <button id="muteButton" type="button" class="btn btn-default btn-sm">
+              <span class="glyphicon glyphicon-bullhorn"></span> 
+            </button>
+          </div>
+      </div>
     </body>
     <script src="mediaPlayer.js"></script>
 </html>

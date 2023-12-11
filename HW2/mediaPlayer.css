@@ -1,3 +1,7 @@
+#myVideo {
+    max-width: 100%; 
+}
+
 #myProgress {
     width: 100%;
     background-color: #ddd;
@@ -7,4 +11,27 @@
     width: 0;
     height: 30px;
     background-color: #4caf50;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: #008CBA;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+button:hover {
+    background-color: #007B9A;
+}
+
+#video_player {
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+    
 }
