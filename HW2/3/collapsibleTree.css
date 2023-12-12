@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.tree {
+    width: 300px;
+    margin: 0 auto;
+    list-style-type: none;
+}
+
+.parent {
+    background-color: #ff9800;
+    color: white;
+    padding: 10px;
+    margin: 2px 0;
+    cursor: pointer;
+}
+
+.child {
+    background-color: #f6f6f6;
+    padding: 5px 10px;
+    margin: 2px 0;
+}
+
+.sub-child {
+    background-color: #cfd8dc;
+    padding: 2px 5px;
+    margin: 2px 0;
+}
