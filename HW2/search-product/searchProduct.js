@@ -42,7 +42,14 @@ function displayProducts(products) {
     productList.innerHTML = '';
     products.forEach(p => {
         let productElement = document.createElement('div');
-        productElement.innerText = `${p.name} - ${p.price} - ${p.category} - ${p.color}`;
+        // productElement.innerText = `${p.name} - ${p.price} - ${p.category} - ${p.color}`;
+        productElement.innerHTML = `<div class="card" style="width:400px">
+        <img class="card-img-top" src="product.jpg" alt="Card image" style="width:100%">
+        <div class="card-body" style="background-color: ${p.color}; opacity: 90%;">
+          <h4 class="card-title">${p.name}</h4>
+          <p class="card-text">price: ${p.price} <br> category: ${p.category} <br> color: ${p.color}</p>
+        </div>
+      </div>`
         productList.appendChild(productElement);
     });
 }
