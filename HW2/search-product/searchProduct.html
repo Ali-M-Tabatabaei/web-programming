@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>search product</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="searchProduct.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="filter mt-3">
+            <div class="form-row">
+                <div class="col">
+                    <select id="categoryFilter" class="form-control">
+                        <option value="">All Categories</option>
+                    </select>
+                </div>
+                <div class="col">
+                    <select id="priceFilter" class="form-control">
+                        <option value="">All Prices</option>
+                    </select>
+                </div>
+                <div class="col">
+                    <select id="colorFilter" class="form-control">
+                        <option value="">All Colors</option>
+                    </select>
+                </div>
+                <div class="col">
+                    <button onclick="clearFilters()" class="btn btn-primary">Clear Filters</button>
+                </div>
+                <div class="col">
+                    <button onclick="filterProducts()" class="btn btn-primary">Apply Filters</button>
+                </div>
+            </div>
+        </div>
+        <div id="productList" class="row mt-3">
+        </div>
+    </div>
+</body>
+<script src="searchProduct.js"></script>
+
+</html>

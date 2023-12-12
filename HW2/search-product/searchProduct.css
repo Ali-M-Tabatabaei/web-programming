@@ -1,0 +1,19 @@
+.filter {
+    margin: 20px;
+}
+
+#productList {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+.product-card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
