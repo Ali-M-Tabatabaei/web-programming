@@ -22,8 +22,19 @@ body {
     margin: 2px 0;
 }
 
+.sub-sub-child {
+    background-color: #e0e0e0;
+    padding: 2px 5px;
+    margin: 2px 0;
+}
+
 .sub-child {
     background-color: #cfd8dc;
+    padding: 2px 5px;
+    margin: 2px 0;
+}
+.sub-parent {
+    background-color: #ecb050;
     padding: 2px 5px;
     margin: 2px 0;
 }
