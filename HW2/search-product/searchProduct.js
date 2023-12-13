@@ -1,5 +1,5 @@
 let products = [
-    { name: 'Product 1', price: '100', category: 'Electronics', color: 'Black' },
+    { name: 'Product 1', price: '100', category: 'Electronics', color: 'Purple' },
     { name: 'Product 2', price: '200', category: 'Electronics', color: 'White' },
     { name: 'Product 3', price: '150', category: 'Fashion', color: 'Red' },
     { name: 'Product 4', price: '300', category: 'Fashion', color: 'Blue' },
@@ -8,10 +8,10 @@ let products = [
     { name: 'Product 7', price: '400', category: 'Automobile', color: 'Blue' },
     { name: 'Product 8', price: '450', category: 'Electronics', color: 'Grey' },
     { name: 'Product 9', price: '500', category: 'Fashion', color: 'White' },
-    { name: 'Product 10', price: '550', category: 'Home', color: 'Black' },
+    { name: 'Product 10', price: '550', category: 'Home', color: 'Purple' },
     { name: 'Product 11', price: '600', category: 'Fashion', color: 'Blue' },
     { name: 'Product 12', price: '650', category: 'Automobile', color: 'Red' },
-    { name: 'Product 13', price: '700', category: 'Electronics', color: 'Black' },
+    { name: 'Product 13', price: '700', category: 'Electronics', color: 'Purple' },
     { name: 'Product 14', price: '750', category: 'Fashion', color: 'White' },
     { name: 'Product 15', price: '1000', category: 'Game', color: 'Lime' },
 ];
