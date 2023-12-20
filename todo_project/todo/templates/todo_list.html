@@ -1,0 +1,17 @@
+
+  <h1>My To-Do List</h1>
+  <a href="{% url 'todo_add' %}" class="btn btn-primary">Add Task</a>
+  <hr>
+  {% if todos %}
+    <ul class="list-group">
+      {% for todo in todos %}
+        <li class="list-group-item">
+          <a href="{% url 'todo_edit' todo.pk %}">{{ todo.title }}</a>
+          <span class="badge badge-secondary">{{ todo.created_at|date }}</span>
+          <a href="{% url 'todo_delete' todo.pk %}" class="btn btn-danger btn-sm float-right">Delete</a>
+        </li>
+      {% endfor %}
+    </ul>
+  {% else %}
+    <p>No tasks yet.</p>
+  {% endif %}
